@@ -1,0 +1,21 @@
+name: AlwaysNightVision
+version: '1.0.0'
+main: com.mineday.alwaysnightvision.AlwaysNightVision
+api-version: '1.21'
+author: mineday
+description: Da Night Vision infinito y permanente a todos los jugadores, sin importar totems, milk buckets, regiones o comandos externos que lo remuevan.
+
+commands:
+  anv:
+    description: Comandos de AlwaysNightVision
+    usage: /anv <reload|toggle|status>
+    permission: alwaysnightvision.admin
+    permission-message: No tienes permiso para usar este comando.
+
+permissions:
+  alwaysnightvision.admin:
+    description: Permite administrar AlwaysNightVision
+    default: op
+  alwaysnightvision.bypass:
+    description: El jugador con este permiso NO recibe night vision automático
+    default: false
