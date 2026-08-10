@@ -1,0 +1,21 @@
+# AlwaysNightVision - config.yml
+
+# Cada cuántos ticks (20 ticks = 1 segundo) se refuerza el efecto a todos los
+# jugadores online. Esto es lo que garantiza que vuelva incluso si algo se lo
+# quita (totem, leche, comandos externos, salir de una región, etc).
+refresh-interval-ticks: 20
+
+# Amplificador del efecto. 0 = nivel I (el normal para ver en la oscuridad).
+amplifier: 0
+
+# Si es true, el efecto no muestra el ícono de poción en el HUD ni partículas.
+ambient: true
+hide-particles: true
+hide-icon: true
+
+# Duración (en ticks) que se aplica cada vez. Un valor alto evita que expire
+# entre refrescos. 999999 ticks ~ 13.8 horas, de sobra hasta el próximo refresh.
+duration-ticks: 999999
+
+# Mensaje que ve el jugador la primera vez que se conecta (dejar vacío "" para desactivar)
+join-message: ""
