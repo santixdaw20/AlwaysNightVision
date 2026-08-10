@@ -60,7 +60,7 @@ public final class AlwaysNightVision extends JavaPlugin {
 
         org.bukkit.potion.PotionEffect effect = new org.bukkit.potion.PotionEffect(
                 org.bukkit.potion.PotionEffectType.NIGHT_VISION,
-                durationTicks,
+                org.bukkit.potion.PotionEffect.INFINITE_DURATION,
                 amplifier,
                 ambient,
                 !hideParticles,
